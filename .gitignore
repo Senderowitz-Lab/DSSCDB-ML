@@ -1,0 +1,36 @@
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+ENV/
+*.egg-info/
+.dist-info/
+
+# --- Data / artifacts (adjust as needed) ---
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.log
+
+# --- Notebooks outputs (optional) ---
+*.nbconvert.ipynb
+
+# --- VS Code / IDE ---
+.vscode/
+.idea/
+
+# --- OS / misc ---
+.DS_Store
+Thumbs.db
+
+# --- Git LFS example (remove if unused) ---
+# *.zip
+# *.pt__marimo__/
