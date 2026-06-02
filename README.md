@@ -59,27 +59,18 @@ The best-performing model is a Histogram-based Gradient Boosting (HGB) regressor
 
 ## Requirements
 
-- Python 3.9+
-- RDKit ≥ 2022.09
-- scikit-learn ≥ 1.3
-- shap ≥ 0.43
-- optuna ≥ 3.0
-- torch ≥ 2.0
-- torch-geometric ≥ 2.3
-- matplotlib ≥ 3.7
-- pandas ≥ 2.0
-- numpy ≥ 1.24
-- joblib
-
 Install dependencies:
 ```bash
-pip install scikit-learn shap optuna torch torch-geometric matplotlib pandas numpy joblib
+pip install -r requirements.txt
 ```
 
-For RDKit:
+For RDKit (recommended via conda):
 ```bash
-conda install -c conda-forge rdkit
+conda install -c conda-forge rdkit==2025.3.3
 ```
+
+Note: PyTorch installation may vary by platform and CUDA version.  
+See https://pytorch.org/get-started/locally/ for the correct command for your system.
 
 ---
 
