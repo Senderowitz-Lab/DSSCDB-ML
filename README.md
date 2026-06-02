@@ -45,6 +45,8 @@ The best-performing model is a Histogram-based Gradient Boosting (HGB) regressor
 │       ├── beeswarm_high.png             # SHAP plot for high PCE range
 │       └── dependence_top6.png           # Dependence plots for top 6 features
 ├── data_prep.ipynb                       # Data cleaning and feature extraction
+├── cheminfo_functions.py                 # Chemoinformatics utilities
+├── model_explain_functions.py            # SHAP visualization utilities
 ├── extras.ipynb                          # Contains utilities for ad-hoc analysis (not required to reproduce the main results)
 ├── optuna_objectives.py                  # Optuna objective functions for all algorithms
 ├── optimize.py                           # Hyperparameter optimization on KS split
