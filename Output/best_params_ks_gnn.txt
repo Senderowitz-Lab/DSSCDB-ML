@@ -1,0 +1,36 @@
+gnn_mean:
+  gnn_hidden: 64
+  gnn_out: 32
+  n_gnn_layers: 4
+  device_hidden: 64
+  pred_hidden: 64
+  dropout: 0.10254003792856142
+  lr: 0.0024793600370157124
+
+gnn_median:
+  gnn_hidden: 128
+  gnn_out: 48
+  n_gnn_layers: 2
+  device_hidden: 48
+  pred_hidden: 48
+  dropout: 0.19896363652647397
+  lr: 0.0005520067947681205
+
+gnn_most_frequent:
+  gnn_hidden: 96
+  gnn_out: 48
+  n_gnn_layers: 4
+  device_hidden: 48
+  pred_hidden: 48
+  dropout: 0.18431849908014444
+  lr: 0.0026377096428105073
+
+gnn_None:
+  gnn_hidden: 128
+  gnn_out: 32
+  n_gnn_layers: 2
+  device_hidden: 64
+  pred_hidden: 64
+  dropout: 0.1057480519434904
+  lr: 0.001496431990570843
+

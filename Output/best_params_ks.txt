@@ -1,0 +1,99 @@
+hgb_mean:
+  max_iter: 400
+  max_depth: 14
+  learning_rate: 0.04403687780159306
+  max_leaf_nodes: 60
+  min_samples_leaf: 13
+  l2_regularization: 2.1932880730450246e-05
+  max_features: 0.47414974431520457
+
+hgb_median:
+  max_iter: 800
+  max_depth: 10
+  learning_rate: 0.03815049112679984
+  max_leaf_nodes: 99
+  min_samples_leaf: 1
+  l2_regularization: 0.0006923755207600837
+  max_features: 0.39360407964101185
+
+hgb_most_frequent:
+  max_iter: 250
+  max_depth: 14
+  learning_rate: 0.031143007952714023
+  max_leaf_nodes: 50
+  min_samples_leaf: 1
+  l2_regularization: 7.486436041982573e-05
+  max_features: 0.30458382634237735
+
+hgb_None:
+  max_iter: 500
+  max_depth: 15
+  learning_rate: 0.028286511877482684
+  max_leaf_nodes: 59
+  min_samples_leaf: 13
+  l2_regularization: 2.5472473611740787
+  max_features: 0.5244290601225052
+
+rf_mean:
+  n_estimators: 750
+  max_depth: 24
+  max_features: 0.3
+  min_samples_split: 3
+  min_samples_leaf: 1
+  bootstrap: False
+
+rf_median:
+  n_estimators: 350
+  max_depth: 24
+  max_features: 0.5
+  min_samples_split: 9
+  min_samples_leaf: 3
+  bootstrap: False
+
+rf_most_frequent:
+  n_estimators: 800
+  max_depth: None
+  max_features: 0.3
+  min_samples_split: 12
+  min_samples_leaf: 1
+  bootstrap: False
+
+rf_None:
+  n_estimators: 400
+  max_depth: 32
+  max_features: 0.3
+  min_samples_split: 5
+  min_samples_leaf: 1
+  bootstrap: False
+
+mlp_mean:
+  n_layers: 2
+  n_units_0: 86
+  n_units_1: 21
+  alpha: 0.0006179715393681876
+  learning_rate_init: 0.000232089910284154
+  activation: relu
+
+mlp_median:
+  n_layers: 2
+  n_units_0: 93
+  n_units_1: 99
+  alpha: 0.00012867614008428297
+  learning_rate_init: 0.001631318858902837
+  activation: relu
+
+mlp_most_frequent:
+  n_layers: 2
+  n_units_0: 95
+  n_units_1: 86
+  alpha: 0.0009550584001288686
+  learning_rate_init: 0.00013783882625018846
+  activation: relu
+
+mlp_None:
+  n_layers: 1
+  n_units_0: 89
+  alpha: 0.0007696168919889822
+  learning_rate_init: 0.0002878312861203628
+  activation: relu
+

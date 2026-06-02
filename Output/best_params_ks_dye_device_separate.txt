@@ -1,0 +1,18 @@
+hgb_mean_dye_only:
+  max_iter: 500
+  max_depth: 15
+  learning_rate: 0.09719534709093201
+  max_leaf_nodes: 99
+  min_samples_leaf: 16
+  l2_regularization: 0.00606083482148799
+  max_features: 0.7272790819087693
+
+hgb_mean_device_only:
+  max_iter: 500
+  max_depth: 14
+  learning_rate: 0.03273235235658845
+  max_leaf_nodes: 101
+  min_samples_leaf: 1
+  l2_regularization: 1.8553402829739465e-06
+  max_features: 0.5621751019509774
+
