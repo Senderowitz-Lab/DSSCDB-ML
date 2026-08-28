@@ -122,7 +122,7 @@ Generates all SHAP summary plots for the best model (HGB + mean imputation) on t
 
 If you use this code or data, please cite:
 
-> Juárez Marckwordt, A. M.; Clarke, P. F. A.; Senderowitz, H. "Combining Device Information and Molecular Fingerprints into a Global Model for Reliable Prediction of Power Conversion Efficiency of Dye Sensitized Solar Cells." *J. Chem. Inf. Model.* 2025.
+> Juárez Marckwordt, A. M., Clarke, P. F. A., & Senderowitz, H. (2026). Combining Device Information and Molecular Fingerprints into a Global Model for Reliable Prediction of Power Conversion Efficiency of Dye-Sensitized Solar Cells. *J. Chem. Inf. Model.* https://doi.org/10.1021/acs.jcim.6c01826
 
 ---
 
